@@ -1,15 +1,7 @@
 #include <matdash.hpp>
-
-// defines add_hook to use minhook
 #include <matdash/minhook.hpp>
-
-// lets you use mod_main
 #include <matdash/boilerplate.hpp>
-
-// matdash::create_console
 #include <matdash/console.hpp>
-
-// gd.h includes cocos2d.h
 #include <gd.h>
 
 using namespace cocos2d;
