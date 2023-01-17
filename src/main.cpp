@@ -13,7 +13,6 @@
 #include <gd.h>
 
 using namespace cocos2d;
-using namespace std;
 
 gd::GJGameLevel* GameLevelManager_createNewLevel() {
     auto level = matdash::orig<&GameLevelManager_createNewLevel>();
@@ -35,7 +34,7 @@ gd::GJGameLevel* GameLevelManager_createNewLevel() {
 
                 if (checkString.empty() != std::string::npos) {
 
-                    stringstream conversionString;
+                    std::stringstream conversionString;
                     conversionString << currentUnnamedInt_string;
                     int currentUnnamedInt;
                     conversionString >> currentUnnamedInt;
